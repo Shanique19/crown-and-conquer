@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(7, 7, 7);
+    color: rgb(247, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#banner{
+    background-color: dark rgb(3, 3, 3);
+    padding-bottom: 5px;;
+    text-align: center;
+    padding-top: 5px;
+}
+#banner p{
+    margin: 0;
+}
+nav, nav{
+    background-color: rgba(255, 254, 253, 0.918);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#nav a, nav a{
+    margin-right: 10px;
+    color: #030303a6;
+    padding: 10px;
+    font-size: large;
+}
+#nav a:hover, nav a:hover{
+    color:   rgb(247, 242, 242);
+    background-color:rgba(116, 87, 15, 0.651);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: x-large;
+    color:rgba(116, 87, 15, 0.651);
+    font-family:cursive
+}
+h2{
+    font-size: large;
+    color:rgba(116, 87, 15, 0.651);
+    text-align: center;
+}
+h3{
+    font-size: large;
+    color:rgba(116, 87, 15, 0.651);
+}
+nav{
+    color:burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main, main{
+    width: 80%;
+    margin: 0 auto;
+    font-size: large;
+}
+#main img, main img{
+    width: 35%;
+    height: auto;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .gallery item{
+        margin:20px;
+        background-color: rgba(116, 87, 15, 0.651);
+        padding: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+    }
+}
+.gallery img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+   
