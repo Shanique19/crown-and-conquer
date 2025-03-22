@@ -5,28 +5,28 @@ body{
     font-size: large;
 }
 #banner{
-    background-color: dark rgb(3, 3, 3);
+    background-color: dark rgb(8, 8, 8);
     padding-bottom: 5px;;
     text-align: center;
     padding-top: 5px;
 }
-#banner p{
-    margin: 0;
-}
+
 nav, nav{
     background-color: rgba(255, 254, 253, 0.918);
+    color: burlywood;
     padding: 10px;
     text-align: center;
+    font-weight: bold;
     margin-bottom: 10px;
 }
-#nav a, nav a{
+nav a, nav a{
     margin-right: 10px;
     color: #030303a6;
     padding: 10px;
     font-size: large;
 }
-#nav a:hover, nav a:hover{
-    color:   rgb(247, 242, 242);
+nav a:hover, nav a:hover{
+    color:   rgb(243, 247, 248);
     background-color:rgba(116, 87, 15, 0.651);
 }
 .container{
@@ -47,10 +47,17 @@ h3{
     font-size: large;
     color:rgba(116, 87, 15, 0.651);
 }
-nav{
-    color:burlywood;
-    text-decoration: none;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    background-color: rgba(116, 87, 15, 0.651);
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 10px;
     font-weight: bold;
+    margin-top: 10px;
+    min-height: 100px;
 }
 
 #main, main{
@@ -59,25 +66,39 @@ nav{
     font-size: large;
 }
 #main img, main img{
-    width: 35%;
+    width: 33%;
     height: auto;
+    border: silver;
 }
 .gallery{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    padding: 15px;
 }
 
-    .gallery item{
+    .gallery-item{
         margin:20px;
-        background-color: rgba(116, 87, 15, 0.651);
         padding: 20px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
     }
-}
+
 .gallery img{
-    width: 30%;
+    width: 150%;
     height: auto;
-    margin: 10px;
+    margin: 5px;
 }
-   
+table{
+    border: 1px solid goldenrod;
+}
+th{
+    background-color: rgba(116, 87, 15, 0.651);
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-size: large;
+}
+td{
+    background-color: silver;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-size: large;
+}
